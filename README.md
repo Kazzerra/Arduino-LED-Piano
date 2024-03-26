@@ -1,6 +1,6 @@
 Setup hardware by following the "Arduino_Block_Diagram.PNG"
 
-If using a 3-wire LED Strip, you must run the applicaton found in 
+If using a 3-wire LED Strip, you must run the applicaton found in DIY_MIDI_Data_Buffer_App/x64/Release/DIY_MIDI_Data_Buffer_App.exe
 When running the App, make sure the MIDI-to-USB connected is plugged into the PC, Piano, and Arduino.
 
 When running the app you should be prompted for a few things namely, the MIDI input and MIDI output devices.  Follow the instructions displayed on the console. See Example Below:
