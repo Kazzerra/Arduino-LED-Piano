@@ -5,23 +5,39 @@ This is to solve the issues with 3-wire LED strips and the FASTLED arduino libra
 When running the App, make sure the MIDI-to-USB connected is plugged into the PC, Piano, and Arduino.
 
 When running the app you should be prompted for a few things namely, the MIDI input and MIDI output devices.  Follow the instructions displayed on the console. See Example Below:
+
 == Started:Crazy Piano Light Show - Pass Through Software (press q to quit) ==
+
 == Detected Midi-IN Devices ==
+
 0 : name = UM-ONE
+
 == Opening Midi-IN Device ==
+
 Select MIDI Device (0, 1, 2...): 0
+
 ==Midi-IN Device Opened! ==
 
 == Detected Midi-OUT Devices ==
+
 0 : name = Microsoft GS Wavetable Synth
+
 1 : name = UM-ONE
+
 Select MIDI Device (0, 1, 2...): 1
+
 == Opening Midi-OUT Device ==
+
 == Midi-OUT Device Opened! ==
 
+
+
 == Start Playing! (press q to quit) ==
+
 NoteOn,  Note=0x4f, Velocity=46
+
 NoteOff, Note=0x4f
+
 
 For the Arduino code to comple, you must use the Arduino IDE.
 You must install the following libraries:
